@@ -143,11 +143,12 @@ div:{
 @media only screen and (max-width: 600px) {
 
 }
-<img src="morocco.jpg"></img>
+<img src="morocco.jpg"/></img>
 
 Math.floor((Math.random() * images.length));
     document.getElementById('afbeelding').src = images
 
+    "Documents/webdesign/singleServeweb/morocco.jpg", "Documents/webdesign/singleServeweb/canada.jpg"
     "Documents/webdesign/singleServeweb/australia.jpg", "Documents/webdesign/singleServeweb/india.jpg", "Documents/webdesign/singleServeweb/ireland.jpg", "Documents/webdesign/singleServeweb/japan.jpg", "Documents/webdesign/singleServeweb/mexico.jpg", "Documents/webdesign/singleServeweb/netherlands.jpg", "Documents/webdesign/singleServeweb/newZealand.jpg", "Documents/webdesign/singleServeweb/portugal.jpg", "Documents/webdesign/singleServeweb/southAfrica.jpg", "Documents/webdesign/singleServeweb/sriLanka.jpg", "Documents/webdesign/singleServeweb/thailand.jpg", "Documents/webdesign/singleServeweb/turkey.jpg", "Documents/webdesign/singleServeweb/vietnam.jpg", "Documents/webdesign/singleServeweb/france.jpg", "Documents/webdesign/singleServeweb/greece.jpg", "Documents/webdesign/singleServeweb/italy.jpg",
     "Documents/webdesign/singleServeweb/spain.jpg", "Documents/webdesign/singleServeweb/unitedStates.jpg"
 images[0] =
