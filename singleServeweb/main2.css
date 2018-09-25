@@ -28,6 +28,9 @@ p {
 #header{
       width: 1150px;
 }
+h1 {
+      left: 400px;
+}
 div {
       text-align: center;
       margin-top: 250px;
