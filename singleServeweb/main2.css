@@ -13,10 +13,20 @@ p {
       font-size: 40px;
       text-align: center;
  }
+#countries{
+      top: 0px;
+      left: 0px;
+      width: 120%;
+      position: relative;
+
+}
 #container{
       width: 100%;
       height: auto;
       white-space: nowrap;
+}
+#header{
+      width: 1150px;
 }
 div {
       text-align: center;

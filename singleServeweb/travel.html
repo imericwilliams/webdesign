@@ -2,27 +2,26 @@
 <html>
     <head>
         <title>Travel around the world</title>
-        <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="main2.css">
-
+        <img src="images/morocco.jpg" style="display: none; "></img>
 
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Sura" rel="stylesheet">
     </head>
     <body>
       <div id="container">
-        <p id="first">Where should I go?</p>
-        <p id="click"><button onclick="choosePic">Travel <span>&#9992;</span></button></p>
-        <div id="countries">
-        </div>
-        <script src="script.js"></script>
-      </div>
-      <script>
-      var myPix = new Array("images/morocco.jpg","images/australia.jpg","images/canada.jpg");
 
-      function choosePic() {
-      var randomNum = Math.floor(Math.random() * myPix.length);
-     document.getElementById("countries").src = myPix[randomNum];
-      }
-      </script>
+        <p id="first">Where should I go?</p>
+        <p id="click"><button onclick="choosePic()">Travel <span>&#9992;</span></button></p>
+        <p id="header"></p>
+        <img id ="countries"></img>
+        <script>
+        var images = new Array("images/australia2.jpg", "images/france.jpg", "images/greece.jpg", "images/india2.jpg", "images/ireland.jpg", "images/italy2.jpg", "images/japan.jpg", "images/mexico.jpg", "images/morocco.jpg", "images/netherlands.jpg", "images/southAfrica.jpg", "images/spain.jpg","images/sriLanka.jpg", "images/thailand.jpg", "images/turkey.jpg", "images/unitedStates.jpg")
+          function choosePic(min, max) {
+              var random = Math.floor(Math.random() * (images.length));
+                document.getElementById("countries").src = images[random];
+              }
+        </script>
+      </div>
+
     </body>
 </html>
