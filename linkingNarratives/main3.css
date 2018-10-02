@@ -1,0 +1,26 @@
+body {
+      margin: 400;
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: auto auto;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+
+
+}
+
+#click1 {
+      margin-left: -400px;
+      margin-top: 0px;
+}
+#click2 {
+      margin-left: -200px;
+      margin-top: 0px;
+}
+#click3 {
+      margin-left: 200px;
+}
+#click4 {
+      margin-left: 400px;
+}
