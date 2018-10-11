@@ -1,0 +1,52 @@
+<!--layout 1-->
+#container{
+      width: 400px;
+      height: auto;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 200px;
+      border: 6px solid;
+}
+#title{
+      font-family: 'Oswald', sans-serif;
+}
+#author{
+      font-family: 'EB Garamond', serif;
+}
+#chapter1{
+      font-family: 'Oswald', sans-serif;
+}
+#text{
+      font-family: 'EB Garamond', serif;
+}
+<!--layout 2-->
+body{
+      background-color: blue;
+}
+#container{
+      width: 600px;
+      height: auto;
+      text-align: inherit;
+      margin-left: auto;
+      margin-right: auto;
+;
+}
+#title{
+      width: -600px;
+      color: 	#de2515;
+
+}
+#author{
+      width: 200px;
+
+}
+#chapter1{
+      width: 300px;
+}
+#text{
+      width: 200px;
+}
+button{
+      
+}
