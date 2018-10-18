@@ -1,0 +1,31 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+h1{
+    margin-left: 1%;
+    float: left;
+}
+h2{
+    margin-left: 1%;
+    float: right;
+}
+.wireframe1 img{
+    float: left;
+    width: 40%;
+    height: 500px;
+    border: 4px dotted black;
+    margin-left: 20px;
+
+}
+.wireframe2 img{
+    float: right;
+    width: 40%;
+    height: auto;
+    border: 4px dotted black;
+    margin-right: 20px;
+}
+.right h1 img{
+    float: right;
+}
