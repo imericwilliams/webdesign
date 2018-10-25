@@ -101,6 +101,10 @@
       font-size: 170%;
       transition-delay: 0.1s;
       background-color: yellow;
+      color: white;
+  }
+  a:visited {
+      color: black;
   }
   .header {
       background-color: lightgrey;
