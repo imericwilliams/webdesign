@@ -109,8 +109,8 @@
       font-family: 'Abril Fatface', cursive;
       letter-spacing: 0.8px;
       float: center;
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
 
   }
   .disclaimer {
@@ -121,7 +121,8 @@
       padding: 0px;
       font-family: 'PT Sans', sans-serif;
       position: relative;
-      font-weight: -300;
+      margin-left: 20px;
+      margin-right: 20px;
   }
   h4 {
       text-align: center;
@@ -140,7 +141,9 @@
       color: black;
       font-weight: bold;
       font-size: 0.8em;
-      padding-left: 300px;
-      padding-right: 300px;
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-left: 150px;
+      padding-right: 150px;
   }
 }
