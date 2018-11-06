@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1439px) {
     body {
     width: 36em;
     margin: 0 auto;
@@ -8,11 +8,13 @@
 }
     #container {
         margin: auto;
-        width: 500px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .titleimg {
-        width: 200px;
+        width: 648px;;
+    }
+    img {
+        width: 648px;
     }
 }
