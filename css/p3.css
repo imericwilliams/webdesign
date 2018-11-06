@@ -1,23 +1,18 @@
-body {
-    margin: auto;
-    height: 500px;
+@media only screen and (max-width: 1440px) {
+    body {
+    width: 36em;
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 1.6;
 }
-#container {
-    margin: auto;
-    width: 500px;
-    height: 500px;
-
-}
-img {
-    height: auto;
-    position: absolute;
-    width: 100px;
-}
-.titleimg {
-    width: 100px;
-}
-.header p{
-    width: 100px;
-    height: auto;
-    position: absolute;
+    #container {
+        margin: auto;
+        width: 500px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .titleimg {
+        width: 200px;
+    }
 }

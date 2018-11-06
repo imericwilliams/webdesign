@@ -8,16 +8,3 @@ body {
     height: 500px;
 
 }
-img {
-    height: auto;
-    position: absolute;
-    width: 100px;
-}
-.titleimg {
-    width: 100px;
-}
-.header p{
-    width: 100px;
-    height: auto;
-    position: absolute;
-}
