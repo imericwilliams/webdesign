@@ -14,7 +14,19 @@
     .titleimg {
         width: 648px;;
     }
+    .panoramaimg {
+        opacity: 0.5;
+    }
+    .center {
+        position: absolute;
+        top: 1125px;
+        right: 290px;
+        transform: translate(-50%, -50%);
+    }
     img {
         width: 648px;
+    }
+    h3 {
+        text-align: center;
     }
 }
