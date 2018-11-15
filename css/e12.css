@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+div .morocco {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    <img src="../images/morocco.jpg"/>
+}
