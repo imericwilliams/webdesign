@@ -1,0 +1,68 @@
+@media only screen and (max-width: 767px) {
+    body {
+      margin: 0;
+      font-size: 18px;
+    }
+    #colors {
+      margin: 0;
+      max-width: 767px;
+    }
+    .blue {
+      background-color: blue;
+      width: 200px;
+      height: 750px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+
+    }
+    .yellow {
+      background-color: yellow;
+      width: 200px;
+      height: 750px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      left: 250px;
+    }
+    .red {
+      background-color: red;
+      width: 200px;
+      height: 750px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      left: 570px;
+    }
+    .guess {
+      width: 100px;
+      background-color: yellow;
+      margin: 0 auto;
+    }
+    .fact {
+      text-align: center;
+      margin-top: 200px;
+    }
+    input {
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 100px;
+      text-align: center;
+    }
+    button {
+      margin-bottom: 20px;
+      background-color: blue;
+
+    }
+    button:hover {
+      background-color: white;
+      cursor: pointer;
+    }
+    button p {
+      font-size: 10px;
+    }
+    h3 {
+      margin: 0;
+    }
+
+}
