@@ -1,68 +1,349 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 544px) {
     body {
-      margin: 0;
-      font-size: 18px;
-    }
-    #colors {
-      margin: 0;
-      max-width: 767px;
-    }
-    .blue {
-      background-color: blue;
-      width: 200px;
-      height: 750px;
+      background-image: url(../images/flag.png);
+      background-repeat: no-repeat;
+      width: 100vw;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
       margin: 0;
       padding: 0;
-      position: absolute;
-
+      font-size: 24px;
     }
-    .yellow {
-      background-color: yellow;
-      width: 200px;
-      height: 750px;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      left: 250px;
-    }
-    .red {
-      background-color: red;
-      width: 200px;
-      height: 750px;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      left: 570px;
+    #container {
+      width: 100vw;
+      margin: 0 auto;
+      height: 100vh;
     }
     .guess {
-      width: 100px;
-      background-color: yellow;
+      max-width: 100%;
       margin: 0 auto;
+      text-align: center;
+      margin-top: 260px;
     }
     .fact {
       text-align: center;
-      margin-top: 200px;
+      margin-top: 100px;
+      font-family: 'Dosis', sans-serif;
+      font-size: 1em;
     }
     input {
       margin-bottom: 20px;
       margin-top: 10px;
-      width: 100px;
+      width: 300px;
+      height: 40px;
       text-align: center;
+      font-size: 25px;
+      font-family: 'Black Han Sans', sans-serif;
+      color: lightblue;
     }
     button {
       margin-bottom: 20px;
       background-color: blue;
-
+      width: 100px;
+      border: black solid 2px;
+    }
+    #click p {
+      font-size: 1.6em;
+      font-family: 'Dosis', sans-serif;
     }
     button:hover {
-      background-color: white;
       cursor: pointer;
-    }
-    button p {
-      font-size: 10px;
-    }
-    h3 {
-      margin: 0;
-    }
+      background-color: lightblue;
+      color: black;
+      box-shadow: 2px 2px;
 
+    }
+    h1 {
+      font-family: 'Black Han Sans', sans-serif;
+      font-size: 2em;
+    }
+    h1 span {
+      display: none;
+    }
+    h1:after {
+      content: 'Could it be Yellow?';
+    }
+    .fact span {
+      display: none;
+    }
+    .fact:after {
+      content: '...or Red or Blue?';
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    body {
+      background-image: url(../images/flag.png);
+      background-repeat: no-repeat;
+      width: 100vw;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+    }
+    #container {
+      width: 100vw;
+      margin: 0 auto;
+      height: 100vh;
+    }
+    .guess {
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 260px;
+    }
+    .fact {
+      text-align: center;
+      margin-top: 100px;
+      font-family: 'Dosis', sans-serif;
+      font-size: 1em;
+    }
+    input {
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 300px;
+      height: 40px;
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Black Han Sans', sans-serif;
+      color: lightblue;
+    }
+    button {
+      margin-bottom: 20px;
+      background-color: blue;
+      width: 100px;
+      border: black solid 2px;
+    }
+    #click p {
+      font-size: 1.6em;
+      font-family: 'Dosis', sans-serif;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: lightblue;
+      color: black;
+      box-shadow: 2px 2px;
+
+    }
+    h1 {
+      font-family: 'Black Han Sans', sans-serif;
+      font-size: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1023px) {
+    body {
+      background-image: url(../images/flag.png);
+      background-repeat: no-repeat;
+      width: 100vw;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+    }
+    #container {
+      width: 100vw;
+      margin: 0 auto;
+      height: 100vh;
+    }
+    .guess {
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 260px;
+    }
+    .fact {
+      text-align: center;
+      margin-top: 100px;
+      font-family: 'Dosis', sans-serif;
+      font-size: 1em;
+    }
+    input {
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 300px;
+      height: 40px;
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Black Han Sans', sans-serif;
+      color: lightblue;
+    }
+    button {
+      margin-bottom: 20px;
+      background-color: blue;
+      width: 100px;
+      border: black solid 2px;
+    }
+    #click p {
+      font-size: 1.6em;
+      font-family: 'Dosis', sans-serif;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: lightblue;
+      color: black;
+      box-shadow: 2px 2px;
+
+    }
+    h1 {
+      font-family: 'Black Han Sans', sans-serif;
+      font-size: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1439px) {
+    body {
+      background-image: url(../images/flag.png);
+      background-repeat: no-repeat;
+      width: 100vw;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+    }
+    #container {
+      width: 100vw;
+      margin: 0 auto;
+      height: 100vh;
+    }
+    .guess {
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 260px;
+    }
+    .fact {
+      text-align: center;
+      margin-top: 100px;
+      font-family: 'Dosis', sans-serif;
+      font-size: 1em;
+    }
+    input {
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 300px;
+      height: 40px;
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Black Han Sans', sans-serif;
+      color: lightblue;
+    }
+    button {
+      margin-bottom: 20px;
+      background-color: blue;
+      width: 100px;
+      border: black solid 2px;
+    }
+    #click p {
+      font-size: 1.6em;
+      font-family: 'Dosis', sans-serif;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: lightblue;
+      color: black;
+      box-shadow: 2px 2px;
+
+    }
+    h1 {
+      font-family: 'Black Han Sans', sans-serif;
+      font-size: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    body {
+      background-image: url(../images/flag.png);
+      background-repeat: no-repeat;
+      width: 100vw;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+    }
+    #container {
+      width: 100vw;
+      margin: 0 auto;
+      height: 100vh;
+    }
+    .guess {
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 260px;
+    }
+    .fact {
+      text-align: center;
+      margin-top: 100px;
+      font-family: 'Dosis', sans-serif;
+      font-size: 1em;
+    }
+    input {
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 300px;
+      height: 40px;
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Black Han Sans', sans-serif;
+      color: lightblue;
+    }
+    button {
+      margin-bottom: 20px;
+      background-color: blue;
+      width: 100px;
+      border: black solid 2px;
+    }
+    #click p {
+      font-size: 1.6em;
+      font-family: 'Dosis', sans-serif;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: lightblue;
+      color: black;
+      box-shadow: 2px 2px;
+
+    }
+    h1 {
+      font-family: 'Black Han Sans', sans-serif;
+      font-size: 2em;
+    }
 }
