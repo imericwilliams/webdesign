@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Responsiveness seemed to not work after the point of pixels smaller than 1024px -->
+    <link rel="stylesheet" type="text/css" href="../css/p4final.css">
+  </head>
+    <body>
+      <div id="container">
+        <div class="home1">
+          <section>
+            <img class="mySlides" src="../images/bank-of-america.png" style="width:100vw">
+            <img class="mySlides" src="../images/china-bank.jpg" style="width:100vw">
+            <img class="mySlides" src="../images/hsbc.jpg" style="width:100vw">
+          </section>
+
+          <script>
+            // Automatic Slideshow - change image every 4 seconds
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}
+              x[myIndex-1].style.display = "block";
+              setTimeout(carousel, 4000);
+            }
+            </script>
+          <div class="whitebackground1">
+            <div class="column1">
+              <h1>Foreign Money</h1>
+              <h5>A collection of currency from around the world</h5>
+            </div>
+          <div class="column2">
+            <br>
+            <nav>
+              <ul class="nav-links1">
+                <li><a href="p4.html">HOME</a></li></span>
+                <li><a href="../project4/currency.html">CURRENCY</a></li>
+                <li><a href="../project4/about.html">ABOUT</a></li>
+              </ul>
+              <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </nav>
+          </div>
+          </div>
+        </div>
+        <div class="home2">
+          <div class="whitebackground">
+            <div class="column1">
+              <h1>Explore</h1>
+              <h3>What else is out there?</h3>
+              <p>There are approximately 180 different currencies<br> used around the world. The value of these currencies<br> make up our lives, but should be seen as a form of communication to connect with others through<br> trade and culture.</p>
+              <br>
+              <p class="disclaimer">Source: Worldatlas</p>
+              </div>
+            <div class="column2">
+              <br>
+              <nav>
+                <ul class="nav-links">
+                  <span><li><a href="p4.html">HOME</a></li></span>
+                  <li><a href="../project4/currency.html">CURRENCY</a></li>
+                  <li><a href="../project4/about.html">ABOUT</a></li>
+                </ul>
+              </nav>
+              <img src="../images/money/rand.gif">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    <script src="../js/p4.js"></script>
+    </body>
+
+</html>
